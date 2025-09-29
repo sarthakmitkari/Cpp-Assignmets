@@ -1,0 +1,26 @@
+//Assignment No: 1
+//Enter Your Name Here
+//Enter Your Roll No Here
+//Calculation of Specific Stiffness and Specific Strength of a material
+
+#include <iostream>
+using namespace std;
+double YM, rho, sigma_t, Specific_Stiffness, Specific_Strength;
+
+int main()
+{
+    cout << "Enter Young's Modulus (in GPa): ";
+    cin >> YM;
+    cout << "Enter Density (in kg/m^3): ";
+    cin >> rho; 
+    cout << "Enter Tensile Strength (in MPa): ";
+    cin >> sigma_t;
+
+    Specific_Stiffness = YM / rho; 
+    Specific_Strength = (sigma_t) / rho; 
+
+    cout << "Specific Stiffness: " << Specific_Stiffness << "Gpa m^3/kg" << endl;
+    cout << "Specific Strength: " << Specific_Strength << " Mpa m^3/kg" << endl;
+
+    return 0;
+}
