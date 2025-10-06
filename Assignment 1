@@ -19,7 +19,7 @@ int main()
     Specific_Stiffness = YM / rho; 
     Specific_Strength = (sigma_t) / rho; 
 
-    cout << "Specific Stiffness: " << Specific_Stiffness << "Gpa m^3/kg" << endl;
+    cout << "Specific Stiffness: " << Specific_Stiffness << " Gpa m^3/kg" << endl;
     cout << "Specific Strength: " << Specific_Strength << " Mpa m^3/kg" << endl;
 
     return 0;
